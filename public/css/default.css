@@ -1,0 +1,21 @@
+.login-wrapper {
+    height:100vh;
+    background-color: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    width:400px;
+    padding:15px;
+}
+
+
+.user-avatar {
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+    cursor:pointer;
+    object-fit: cover;
+}
