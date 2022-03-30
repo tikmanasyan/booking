@@ -12,9 +12,6 @@ use Illuminate\Support\Facades\Hash;
 class AuthController extends Controller
 {
     public function login(LoginRequest $request) {
-
-
-
         $data = [
             'email' => $request['email'],
             'password' => $request['password']
